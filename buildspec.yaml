@@ -4,7 +4,6 @@ phases:
   pre_build:
     commands:
       #installs dependencies into the node_modules/ directory
-      - sudo yum install nodejs
       - npm install
   build:
     commands:
